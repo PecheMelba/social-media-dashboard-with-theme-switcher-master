@@ -1,0 +1,29 @@
+@media all and (min-width: 950px)
+{
+    hr { display:none;}
+
+    header
+    {
+        display:flex;
+        justify-content: space-between;
+        padding: 2.5em 5%;
+    }
+    #dark-mode-container { justify-content: center;}
+    #toggle-theme-bg {margin-left: 1em;}
+
+    #main-stats-container
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 1em;
+    }    
+    #overview-stats-container
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 1em;
+        row-gap: 0;
+    }
+}

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style-mobile.css">
+  <link rel="stylesheet" href="style-desktop.css">
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <header>      
+      <div id="header-title-container">
+        <h1 id="header-title">Social Media Dashboard</h1>
+        <div id="total-nb-followers">Total Followers: 23,004</div>
+      </div>
+      <hr>
+      <div id="dark-mode-container">
+        <div id="dark-mode-txt">Dark Mode</div>
+        <div id="toggle-theme-bg"><span id="toogle-theme-cursor"></span></div>
+      </div>
+    </header>
+
+    <div id="main-stats-container">
+      <div class="main-stats-elem" id="main-fb">
+        <div class="network-container">
+          <img class="social-network-logo" src="images/icon-facebook.svg" alt="facebook">
+          <div class="author">@nathanf</div>
+        </div>
+        <div class="nb-followers">1987</div>
+        <div class="followers-txt">Followers</div>
+        <div class="new-followers up-percentage"><img class="arrow" src="images/icon-up.svg" alt="up">12 Today</div>
+      </div>
+
+      <div class="main-stats-elem" id="main-twitter">
+        <div class="network-container">
+          <img class="social-network-logo" src="images/icon-twitter.svg" alt="twitter">
+          <div class="author">@nathanf</div>
+         </div>
+        <div class="nb-followers">1044</div>
+        <div class="followers-txt">Followers</div>
+        <div class="new-followers up-percentage"><img class="arrow" src="images/icon-up.svg" alt="up">99 Today</div>
+      </div>
+
+      <div class="main-stats-elem" id="main-insta">
+        <div class="network-container">
+          <img class="social-network-logo" src="images/icon-instagram.svg" alt="instagram">
+          <div class="author">@realnathanf</div>
+         </div>
+        <div class="nb-followers">11k</div>
+        <div class="followers-txt">Followers</div>
+        <div class="new-followers up-percentage"><img class="arrow" src="images/icon-up.svg" alt="up">1099 Today</div>
+      </div>
+
+      <div class="main-stats-elem" id="main-youtube">
+        <div class="network-container">
+          <img class="social-network-logo" src="images/icon-youtube.svg" alt="youtube">
+          <div class="author">Nathan F.</div>
+        </div>
+        <div class="nb-followers">8239</div>
+        <div class="followers-txt">Subscribers</div>
+        <div class="new-followers down-percentage"><img class="arrow" src="images/icon-down.svg" alt="down">144 Today</div>
+      </div>
+    </div>
+
+    <div id="overview-stats">    
+      <h2>Overview - Today</h2>
+
+      <div id="overview-stats-container">
+        <div class="overview-stats-elem">
+          <div class="ov-elem-header">
+            <div class="ov-elem-title">Page Views</div>
+            <img class="social-network-logo" src="images/icon-facebook.svg" alt="facebook">
+          </div>
+          <div class="ov-elem-footer">
+            <div class="ov-elem-nb">87</div>
+            <div class="ov-elem-percentage up-percentage"><img class="arrow" src="images/icon-up.svg" alt="up">3%</div>
+          </div>
+        </div>
+
+        <div class="overview-stats-elem">
+          <div class="ov-elem-header">
+            <div class="ov-elem-title">Likes</div>
+            <img class="social-network-logo" src="images/icon-facebook.svg" alt="facebook">
+          </div>
+          <div class="ov-elem-footer">
+            <div class="ov-elem-nb">52</div>
+            <div class="ov-elem-percentage down-percentage"><img class="arrow" src="images/icon-down.svg" alt="down">2%</div>
+          </div>
+        </div>
+
+        <div class="overview-stats-elem">
+          <div class="ov-elem-header">
+            <div class="ov-elem-title">Likes</div>
+            <img class="social-network-logo" src="images/icon-instagram.svg" alt="instagram">
+          </div>
+          <div class="ov-elem-footer">
+            <div class="ov-elem-nb">5462</div>
+            <div class="ov-elem-percentage up-percentage"><img class="arrow" src="images/icon-up.svg" alt="up">2257%</div>
+          </div>
+        </div>
+
+      <div class="overview-stats-elem">
+        <div class="ov-elem-header">
+          <div class="ov-elem-title">Profile Views</div>
+          <img class="social-network-logo" src="images/icon-instagram.svg" alt="instagram">
+        </div>
+        <div class="ov-elem-footer">
+          <div class="ov-elem-nb">52k</div>
+          <div class="ov-elem-percentage up-percentage"><img class="arrow" src="images/icon-up.svg" alt="up">1375%</div>
+        </div>
+      </div>
+
+      <div class="overview-stats-elem">
+        <div class="ov-elem-header">
+          <div class="ov-elem-title">Retweets</div>
+          <img class="social-network-logo" src="images/icon-twitter.svg" alt="twitter">
+        </div>
+        <div class="ov-elem-footer">
+          <div class="ov-elem-nb">117</div>
+          <div class="ov-elem-percentage up-percentage"><img class="arrow" src="images/icon-up.svg" alt="up">303%</div>
+        </div>
+      </div>
+
+      <div class="overview-stats-elem">
+        <div class="ov-elem-header">
+          <div class="ov-elem-title">Likes</div>
+          <img class="social-network-logo" src="images/icon-twitter.svg" alt="twitter">
+        </div>
+        <div class="ov-elem-footer">
+          <div class="ov-elem-nb">507</div>
+          <div class="ov-elem-percentage up-percentage"><img class="arrow" src="images/icon-up.svg" alt="up">553%</div>
+        </div>
+      </div>
+
+      <div class="overview-stats-elem">
+        <div class="ov-elem-header">
+          <div class="ov-elem-title">Likes</div>
+          <img class="social-network-logo" src="images/icon-youtube.svg" alt="youtube">
+        </div>
+        <div class="ov-elem-footer">
+          <div class="ov-elem-nb">107</div>
+          <div class="ov-elem-percentage down-percentage"><img class="arrow" src="images/icon-down.svg" alt="down">19%</div>
+        </div>
+      </div>
+
+      <div class="overview-stats-elem">
+        <div class="ov-elem-header">
+          <div class="ov-elem-title">Total Views</div>
+          <img class="social-network-logo" src="images/icon-youtube.svg" alt="youtube">
+        </div>
+        <div class="ov-elem-footer">
+          <div class="ov-elem-nb">1407</div>
+          <div class="ov-elem-percentage down-percentage"><img class="arrow" src="images/icon-down.svg" alt="down">12%</div>
+        </div>
+      </div>
+  </div>
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Peche Melba</a>.
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
